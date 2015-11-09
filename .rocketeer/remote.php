@@ -34,6 +34,7 @@ return [
         #'storage/sessions',
         'storage',
         'public/uploads',
+        'files',
         '.env',
     ],
 

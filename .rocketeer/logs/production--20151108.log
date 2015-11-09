@@ -1,112 +1,29 @@
-ls: cannot access /var/www/mrcore5-mreschke-com/releases: No such file or directory
-/usr/local/bin/composer
-$ git --version
-git --version
-git version 2.1.4
-git version 2.1.4
-/usr/bin/php
-/usr/bin/php
-/usr/bin/php
-$ /usr/bin/php -m
-/usr/bin/php -m
-[PHP Modules]
-bcmath
-bz2
-calendar
-Core
-ctype
-curl
-date
-dba
-dom
-ereg
-exif
-fileinfo
-filter
-ftp
-gd
-gettext
-hash
-iconv
-json
-libxml
-mbstring
-mcrypt
-mhash
-mssql
-mysql
-mysqli
-mysqlnd
-openssl
-pcntl
-pcre
-PDO
-pdo_dblib
-pdo_mysql
-pdo_sqlite
-Phar
-posix
-readline
-redis
-Reflection
-session
-shmop
-SimpleXML
-soap
-sockets
-SPL
-sqlite3
-standard
-sysvmsg
-sysvsem
-sysvshm
-tokenizer
-wddx
-xml
-xmlreader
-xmlwriter
-Zend OPcache
-zip
-zlib
-[Zend Modules]
-Zend OPcache
-$ mkdir /var/www/mrcore5-mreschke-com/
-mkdir /var/www/mrcore5-mreschke-com/
-
-$ mkdir -p /var/www/mrcore5-mreschke-com/releases
-mkdir -p /var/www/mrcore5-mreschke-com/releases
-
-$ mkdir -p /var/www/mrcore5-mreschke-com/current
-mkdir -p /var/www/mrcore5-mreschke-com/current
-
-$ mkdir -p /var/www/mrcore5-mreschke-com/shared
-mkdir -p /var/www/mrcore5-mreschke-com/shared
-
-$ git clone "git@github.com:mreschke/mrcore5-mreschke-com" "/var/www/mrcore5-mreschke-com/releases/20151108210131" --branch="master" --depth="1"
-git clone "git@github.com:mreschke/mrcore5-mreschke-com" "/var/www/mrcore5-mreschke-com/releases/20151108210131" --branch="master" --depth="1"
-Cloning into '/var/www/mrcore5-mreschke-com/releases/20151108210131'...
-Warning: Permanently added 'github.com,192.30.252.131' (RSA) to the list of known hosts.
-$ cd /var/www/mrcore5-mreschke-com/releases/20151108210131
+20151108210131
+$ git clone "git@github.com:mreschke/mrcore5-mreschke-com" "/var/www/mrcore5-mreschke-com/releases/20151108211030" --branch="master" --depth="1"
+git clone "git@github.com:mreschke/mrcore5-mreschke-com" "/var/www/mrcore5-mreschke-com/releases/20151108211030" --branch="master" --depth="1"
+Cloning into '/var/www/mrcore5-mreschke-com/releases/20151108211030'...
+Warning: Permanently added 'github.com,192.30.252.129' (RSA) to the list of known hosts.
+$ cd /var/www/mrcore5-mreschke-com/releases/20151108211030
 $ git submodule update --init --recursive
-cd /var/www/mrcore5-mreschke-com/releases/20151108210131
+cd /var/www/mrcore5-mreschke-com/releases/20151108211030
 git submodule update --init --recursive
 
 
 /usr/local/bin/composer
-$ cd /var/www/mrcore5-mreschke-com/releases/20151108210131
+$ cd /var/www/mrcore5-mreschke-com/releases/20151108211030
 $ /usr/local/bin/composer install --no-interaction --no-dev --prefer-dist
-cd /var/www/mrcore5-mreschke-com/releases/20151108210131
+cd /var/www/mrcore5-mreschke-com/releases/20151108211030
 /usr/local/bin/composer install --no-interaction --no-dev --prefer-dist
 Loading composer repositories with package information
 Installing dependencies from lock file
   - Installing guzzlehttp/promises (1.0.3)
-    Downloading: Connecting...    Downloading: 0%               Downloading: 20%    Downloading: 55%    Downloading: 75%    Downloading: 95%    Downloading: 100%
+    Loading from cache
 
   - Installing psr/http-message (1.0)
-    Downloading: Connecting...    Downloading: 0%               Downloading: 25%    Downloading: 85%    Downloading: 95%    Downloading: 100%
+    Loading from cache
 
   - Installing guzzlehttp/psr7 (1.2.1)
-    Downloading: Connecting...    Downloading: 0%               Downloading: 20%    Downloading: 25%    Downloading: 40%    Downloading: 45%    Downloading: 60%    Downloading: 65%    Downloading: 85%    Downloading: 90%    Downloading: 100%
+    Loading from cache
 
   - Installing jakub-onderka/php-console-color (0.1)
     Loading from cache
@@ -187,7 +104,7 @@ Installing dependencies from lock file
     Loading from cache
 
   - Installing doctrine/inflector (v1.1.0)
-    Downloading: Connecting...    Downloading: 0%               Downloading: 75%    Downloading: 85%    Downloading: 100%
+    Loading from cache
 
   - Installing danielstjules/stringy (1.10.0)
     Loading from cache
@@ -199,40 +116,40 @@ Installing dependencies from lock file
     Loading from cache
 
   - Installing mrcore/auth (1.0.3)
-    Downloading: Connecting...    Downloading: 100%         
+    Loading from cache
 
   - Installing mrcore/bootswatch-theme (1.0.1)
-    Downloading: Connecting...    Downloading: 100%         
+    Loading from cache
 
   - Installing mreschke/helpers (1.0.5)
-    Downloading: Connecting...    Downloading: 100%         
+    Loading from cache
 
   - Installing mrcore/foundation (1.0.19)
-    Downloading: Connecting...    Downloading: 100%         
+    Loading from cache
 
   - Installing sabre/vobject (2.1.7)
-    Downloading: Connecting...    Downloading: 100%         
+    Loading from cache
 
   - Installing sabre/dav (1.8.12)
-    Downloading: Connecting...    Downloading: 100%         
+    Loading from cache
 
   - Installing predis/predis (v1.0.3)
-    Downloading: Connecting...    Downloading: 0%               Downloading: 5%    Downloading: 10%    Downloading: 15%    Downloading: 20%    Downloading: 25%    Downloading: 30%    Downloading: 35%    Downloading: 40%    Downloading: 45%    Downloading: 50%    Downloading: 55%    Downloading: 60%    Downloading: 65%    Downloading: 70%    Downloading: 75%    Downloading: 80%    Downloading: 85%    Downloading: 90%    Downloading: 95%    Downloading: 100%    Downloading: 100%
+    Loading from cache
 
   - Installing illuminate/html (v5.0.0)
-    Downloading: Connecting...    Downloading: 0%               Downloading: 70%    Downloading: 100%
+    Loading from cache
 
   - Installing guzzlehttp/guzzle (6.1.0)
-    Downloading: Connecting...    Downloading: 0%               Downloading: 10%    Downloading: 15%    Downloading: 20%    Downloading: 25%    Downloading: 30%    Downloading: 35%    Downloading: 45%    Downloading: 55%    Downloading: 60%    Downloading: 70%    Downloading: 80%    Downloading: 90%    Downloading: 95%    Downloading: 100%
+    Loading from cache
 
   - Installing easybook/geshi (v1.0.8.15)
-    Downloading: Connecting...    Downloading: 100%         
+    Loading from cache
 
   - Installing camspiers/porter-stemmer (1.0.0)
-    Downloading: Connecting...    Downloading: 100%         
+    Loading from cache
 
   - Installing mrcore/wiki (1.0.34)
-    Downloading: Connecting...    Downloading: 100%         
+    Loading from cache
 
 Generating autoload files
 > php artisan clear-compiled
@@ -240,70 +157,72 @@ Generating autoload files
 Generating optimized class loader
 Compiling common classes
 
-$ cd /var/www/mrcore5-mreschke-com/releases/20151108210131
+$ cd /var/www/mrcore5-mreschke-com/releases/20151108211030
 $ npm install
-cd /var/www/mrcore5-mreschke-com/releases/20151108210131
+cd /var/www/mrcore5-mreschke-com/releases/20151108211030
 npm install
 bash: npm: command not found
 
 
-$ cd /var/www/mrcore5-mreschke-com/releases/20151108210131
-$ chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108210131/app/database/production.sqlite
-$ chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108210131/app/database/production.sqlite
-$ chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108210131/app/database/production.sqlite
-cd /var/www/mrcore5-mreschke-com/releases/20151108210131
-chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108210131/app/database/production.sqlite
-chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108210131/app/database/production.sqlite
-chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108210131/app/database/production.sqlite
-chmod: cannot access ‘/var/www/mrcore5-mreschke-com/releases/20151108210131/app/database/production.sqlite’: No such file or directory
-$ cd /var/www/mrcore5-mreschke-com/releases/20151108210131
-$ chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108210131/storage
-$ chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108210131/storage
-$ chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108210131/storage
-cd /var/www/mrcore5-mreschke-com/releases/20151108210131
-chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108210131/storage
-chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108210131/storage
-chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108210131/storage
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108210131/storage/framework/.gitignore’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108210131/storage/framework/views/.gitignore’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108210131/storage/framework/views’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108210131/storage/framework/cache/.gitignore’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108210131/storage/framework/cache’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108210131/storage/framework/sessions/.gitignore’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108210131/storage/framework/sessions’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108210131/storage/framework’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108210131/storage/app/.gitignore’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108210131/storage/app’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108210131/storage/logs/.gitignore’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108210131/storage/logs’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108210131/storage’: Operation not permitted
-$ cd /var/www/mrcore5-mreschke-com/releases/20151108210131
-$ chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108210131/public
-$ chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108210131/public
-$ chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108210131/public
-cd /var/www/mrcore5-mreschke-com/releases/20151108210131
-chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108210131/public
-chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108210131/public
-chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108210131/public
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108210131/public/favicon.ico’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108210131/public/robots.txt’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108210131/public/.htaccess’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108210131/public/index.php’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108210131/public’: Operation not permitted
-$ mv /var/www/mrcore5-mreschke-com/releases/20151108210131/storage /var/www/mrcore5-mreschke-com/shared/storage
-mv /var/www/mrcore5-mreschke-com/releases/20151108210131/storage /var/www/mrcore5-mreschke-com/shared/storage
+$ cd /var/www/mrcore5-mreschke-com/releases/20151108211030
+$ chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108211030/app/database/production.sqlite
+$ chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108211030/app/database/production.sqlite
+$ chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108211030/app/database/production.sqlite
+cd /var/www/mrcore5-mreschke-com/releases/20151108211030
+chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108211030/app/database/production.sqlite
+chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108211030/app/database/production.sqlite
+chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108211030/app/database/production.sqlite
+chmod: cannot access ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/app/database/production.sqlite’: No such file or directory
+$ cd /var/www/mrcore5-mreschke-com/releases/20151108211030
+$ chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108211030/storage
+$ chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108211030/storage
+$ chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108211030/storage
+cd /var/www/mrcore5-mreschke-com/releases/20151108211030
+chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108211030/storage
+chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108211030/storage
+chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108211030/storage
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/framework/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/framework/views/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/framework/views’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/framework/cache/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/framework/cache’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/framework/sessions/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/framework/sessions’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/framework’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/app/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/app’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/logs/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/logs’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage’: Operation not permitted
+$ cd /var/www/mrcore5-mreschke-com/releases/20151108211030
+$ chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108211030/public
+$ chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108211030/public
+$ chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108211030/public
+cd /var/www/mrcore5-mreschke-com/releases/20151108211030
+chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108211030/public
+chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108211030/public
+chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108211030/public
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/public/favicon.ico’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/public/robots.txt’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/public/.htaccess’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/public/index.php’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/public’: Operation not permitted
+$ rm -rf /var/www/mrcore5-mreschke-com/releases/20151108211030/storage
+rm -rf /var/www/mrcore5-mreschke-com/releases/20151108211030/storage
 
-$ ln -s /var/www/mrcore5-mreschke-com/shared/storage /var/www/mrcore5-mreschke-com/releases/20151108210131/storage-temp
-$ mv -Tf /var/www/mrcore5-mreschke-com/releases/20151108210131/storage-temp /var/www/mrcore5-mreschke-com/releases/20151108210131/storage
-ln -s /var/www/mrcore5-mreschke-com/shared/storage /var/www/mrcore5-mreschke-com/releases/20151108210131/storage-temp
-mv -Tf /var/www/mrcore5-mreschke-com/releases/20151108210131/storage-temp /var/www/mrcore5-mreschke-com/releases/20151108210131/storage
+$ ln -s /var/www/mrcore5-mreschke-com/shared/storage /var/www/mrcore5-mreschke-com/releases/20151108211030/storage-temp
+$ mv -Tf /var/www/mrcore5-mreschke-com/releases/20151108211030/storage-temp /var/www/mrcore5-mreschke-com/releases/20151108211030/storage
+ln -s /var/www/mrcore5-mreschke-com/shared/storage /var/www/mrcore5-mreschke-com/releases/20151108211030/storage-temp
+mv -Tf /var/www/mrcore5-mreschke-com/releases/20151108211030/storage-temp /var/www/mrcore5-mreschke-com/releases/20151108211030/storage
 
-$ rm -rf /var/www/mrcore5-mreschke-com/current
-rm -rf /var/www/mrcore5-mreschke-com/current
+$ ln -s /var/www/mrcore5-mreschke-com/shared/.env /var/www/mrcore5-mreschke-com/releases/20151108211030/.env-temp
+$ mv -Tf /var/www/mrcore5-mreschke-com/releases/20151108211030/.env-temp /var/www/mrcore5-mreschke-com/releases/20151108211030/.env
+ln -s /var/www/mrcore5-mreschke-com/shared/.env /var/www/mrcore5-mreschke-com/releases/20151108211030/.env-temp
+mv -Tf /var/www/mrcore5-mreschke-com/releases/20151108211030/.env-temp /var/www/mrcore5-mreschke-com/releases/20151108211030/.env
 
-$ ln -s /var/www/mrcore5-mreschke-com/releases/20151108210131 /var/www/mrcore5-mreschke-com/current-temp
+$ ln -s /var/www/mrcore5-mreschke-com/releases/20151108211030 /var/www/mrcore5-mreschke-com/current-temp
 $ mv -Tf /var/www/mrcore5-mreschke-com/current-temp /var/www/mrcore5-mreschke-com/current
-ln -s /var/www/mrcore5-mreschke-com/releases/20151108210131 /var/www/mrcore5-mreschke-com/current-temp
+ln -s /var/www/mrcore5-mreschke-com/releases/20151108211030 /var/www/mrcore5-mreschke-com/current-temp
 mv -Tf /var/www/mrcore5-mreschke-com/current-temp /var/www/mrcore5-mreschke-com/current
 
 |=> No releases to prune from the server
