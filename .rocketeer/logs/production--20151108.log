@@ -1,18 +1,19 @@
 20151108210131
-$ git clone "git@github.com:mreschke/mrcore5-mreschke-com" "/var/www/mrcore5-mreschke-com/releases/20151108211030" --branch="master" --depth="1"
-git clone "git@github.com:mreschke/mrcore5-mreschke-com" "/var/www/mrcore5-mreschke-com/releases/20151108211030" --branch="master" --depth="1"
-Cloning into '/var/www/mrcore5-mreschke-com/releases/20151108211030'...
-Warning: Permanently added 'github.com,192.30.252.129' (RSA) to the list of known hosts.
-$ cd /var/www/mrcore5-mreschke-com/releases/20151108211030
+20151108211030
+$ git clone "git@github.com:mreschke/mrcore5-mreschke-com" "/var/www/mrcore5-mreschke-com/releases/20151108211517" --branch="master" --depth="1"
+git clone "git@github.com:mreschke/mrcore5-mreschke-com" "/var/www/mrcore5-mreschke-com/releases/20151108211517" --branch="master" --depth="1"
+Cloning into '/var/www/mrcore5-mreschke-com/releases/20151108211517'...
+Warning: Permanently added 'github.com,192.30.252.130' (RSA) to the list of known hosts.
+$ cd /var/www/mrcore5-mreschke-com/releases/20151108211517
 $ git submodule update --init --recursive
-cd /var/www/mrcore5-mreschke-com/releases/20151108211030
+cd /var/www/mrcore5-mreschke-com/releases/20151108211517
 git submodule update --init --recursive
 
 
 /usr/local/bin/composer
-$ cd /var/www/mrcore5-mreschke-com/releases/20151108211030
+$ cd /var/www/mrcore5-mreschke-com/releases/20151108211517
 $ /usr/local/bin/composer install --no-interaction --no-dev --prefer-dist
-cd /var/www/mrcore5-mreschke-com/releases/20151108211030
+cd /var/www/mrcore5-mreschke-com/releases/20151108211517
 /usr/local/bin/composer install --no-interaction --no-dev --prefer-dist
 Loading composer repositories with package information
 Installing dependencies from lock file
@@ -157,72 +158,77 @@ Generating autoload files
 Generating optimized class loader
 Compiling common classes
 
-$ cd /var/www/mrcore5-mreschke-com/releases/20151108211030
+$ cd /var/www/mrcore5-mreschke-com/releases/20151108211517
 $ npm install
-cd /var/www/mrcore5-mreschke-com/releases/20151108211030
+cd /var/www/mrcore5-mreschke-com/releases/20151108211517
 npm install
 bash: npm: command not found
 
 
-$ cd /var/www/mrcore5-mreschke-com/releases/20151108211030
-$ chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108211030/app/database/production.sqlite
-$ chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108211030/app/database/production.sqlite
-$ chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108211030/app/database/production.sqlite
-cd /var/www/mrcore5-mreschke-com/releases/20151108211030
-chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108211030/app/database/production.sqlite
-chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108211030/app/database/production.sqlite
-chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108211030/app/database/production.sqlite
-chmod: cannot access ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/app/database/production.sqlite’: No such file or directory
-$ cd /var/www/mrcore5-mreschke-com/releases/20151108211030
-$ chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108211030/storage
-$ chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108211030/storage
-$ chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108211030/storage
-cd /var/www/mrcore5-mreschke-com/releases/20151108211030
-chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108211030/storage
-chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108211030/storage
-chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108211030/storage
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/framework/.gitignore’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/framework/views/.gitignore’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/framework/views’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/framework/cache/.gitignore’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/framework/cache’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/framework/sessions/.gitignore’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/framework/sessions’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/framework’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/app/.gitignore’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/app’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/logs/.gitignore’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage/logs’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/storage’: Operation not permitted
-$ cd /var/www/mrcore5-mreschke-com/releases/20151108211030
-$ chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108211030/public
-$ chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108211030/public
-$ chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108211030/public
-cd /var/www/mrcore5-mreschke-com/releases/20151108211030
-chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108211030/public
-chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108211030/public
-chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108211030/public
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/public/favicon.ico’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/public/robots.txt’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/public/.htaccess’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/public/index.php’: Operation not permitted
-chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211030/public’: Operation not permitted
-$ rm -rf /var/www/mrcore5-mreschke-com/releases/20151108211030/storage
-rm -rf /var/www/mrcore5-mreschke-com/releases/20151108211030/storage
+$ cd /var/www/mrcore5-mreschke-com/releases/20151108211517
+$ chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108211517/app/database/production.sqlite
+$ chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108211517/app/database/production.sqlite
+$ chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108211517/app/database/production.sqlite
+cd /var/www/mrcore5-mreschke-com/releases/20151108211517
+chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108211517/app/database/production.sqlite
+chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108211517/app/database/production.sqlite
+chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108211517/app/database/production.sqlite
+chmod: cannot access ‘/var/www/mrcore5-mreschke-com/releases/20151108211517/app/database/production.sqlite’: No such file or directory
+$ cd /var/www/mrcore5-mreschke-com/releases/20151108211517
+$ chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108211517/storage
+$ chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108211517/storage
+$ chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108211517/storage
+cd /var/www/mrcore5-mreschke-com/releases/20151108211517
+chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108211517/storage
+chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108211517/storage
+chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108211517/storage
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211517/storage/framework/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211517/storage/framework/views/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211517/storage/framework/views’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211517/storage/framework/cache/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211517/storage/framework/cache’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211517/storage/framework/sessions/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211517/storage/framework/sessions’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211517/storage/framework’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211517/storage/app/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211517/storage/app’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211517/storage/logs/.gitignore’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211517/storage/logs’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211517/storage’: Operation not permitted
+$ cd /var/www/mrcore5-mreschke-com/releases/20151108211517
+$ chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108211517/public
+$ chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108211517/public
+$ chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108211517/public
+cd /var/www/mrcore5-mreschke-com/releases/20151108211517
+chmod -R 755 /var/www/mrcore5-mreschke-com/releases/20151108211517/public
+chmod -R g+s /var/www/mrcore5-mreschke-com/releases/20151108211517/public
+chown -R www-data:www-data /var/www/mrcore5-mreschke-com/releases/20151108211517/public
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211517/public/favicon.ico’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211517/public/robots.txt’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211517/public/.htaccess’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211517/public/index.php’: Operation not permitted
+chown: changing ownership of ‘/var/www/mrcore5-mreschke-com/releases/20151108211517/public’: Operation not permitted
+$ rm -rf /var/www/mrcore5-mreschke-com/releases/20151108211517/storage
+rm -rf /var/www/mrcore5-mreschke-com/releases/20151108211517/storage
 
-$ ln -s /var/www/mrcore5-mreschke-com/shared/storage /var/www/mrcore5-mreschke-com/releases/20151108211030/storage-temp
-$ mv -Tf /var/www/mrcore5-mreschke-com/releases/20151108211030/storage-temp /var/www/mrcore5-mreschke-com/releases/20151108211030/storage
-ln -s /var/www/mrcore5-mreschke-com/shared/storage /var/www/mrcore5-mreschke-com/releases/20151108211030/storage-temp
-mv -Tf /var/www/mrcore5-mreschke-com/releases/20151108211030/storage-temp /var/www/mrcore5-mreschke-com/releases/20151108211030/storage
+$ ln -s /var/www/mrcore5-mreschke-com/shared/storage /var/www/mrcore5-mreschke-com/releases/20151108211517/storage-temp
+$ mv -Tf /var/www/mrcore5-mreschke-com/releases/20151108211517/storage-temp /var/www/mrcore5-mreschke-com/releases/20151108211517/storage
+ln -s /var/www/mrcore5-mreschke-com/shared/storage /var/www/mrcore5-mreschke-com/releases/20151108211517/storage-temp
+mv -Tf /var/www/mrcore5-mreschke-com/releases/20151108211517/storage-temp /var/www/mrcore5-mreschke-com/releases/20151108211517/storage
 
-$ ln -s /var/www/mrcore5-mreschke-com/shared/.env /var/www/mrcore5-mreschke-com/releases/20151108211030/.env-temp
-$ mv -Tf /var/www/mrcore5-mreschke-com/releases/20151108211030/.env-temp /var/www/mrcore5-mreschke-com/releases/20151108211030/.env
-ln -s /var/www/mrcore5-mreschke-com/shared/.env /var/www/mrcore5-mreschke-com/releases/20151108211030/.env-temp
-mv -Tf /var/www/mrcore5-mreschke-com/releases/20151108211030/.env-temp /var/www/mrcore5-mreschke-com/releases/20151108211030/.env
+$ ln -s /var/www/mrcore5-mreschke-com/shared/files /var/www/mrcore5-mreschke-com/releases/20151108211517/files-temp
+$ mv -Tf /var/www/mrcore5-mreschke-com/releases/20151108211517/files-temp /var/www/mrcore5-mreschke-com/releases/20151108211517/files
+ln -s /var/www/mrcore5-mreschke-com/shared/files /var/www/mrcore5-mreschke-com/releases/20151108211517/files-temp
+mv -Tf /var/www/mrcore5-mreschke-com/releases/20151108211517/files-temp /var/www/mrcore5-mreschke-com/releases/20151108211517/files
 
-$ ln -s /var/www/mrcore5-mreschke-com/releases/20151108211030 /var/www/mrcore5-mreschke-com/current-temp
+$ ln -s /var/www/mrcore5-mreschke-com/shared/.env /var/www/mrcore5-mreschke-com/releases/20151108211517/.env-temp
+$ mv -Tf /var/www/mrcore5-mreschke-com/releases/20151108211517/.env-temp /var/www/mrcore5-mreschke-com/releases/20151108211517/.env
+ln -s /var/www/mrcore5-mreschke-com/shared/.env /var/www/mrcore5-mreschke-com/releases/20151108211517/.env-temp
+mv -Tf /var/www/mrcore5-mreschke-com/releases/20151108211517/.env-temp /var/www/mrcore5-mreschke-com/releases/20151108211517/.env
+
+$ ln -s /var/www/mrcore5-mreschke-com/releases/20151108211517 /var/www/mrcore5-mreschke-com/current-temp
 $ mv -Tf /var/www/mrcore5-mreschke-com/current-temp /var/www/mrcore5-mreschke-com/current
-ln -s /var/www/mrcore5-mreschke-com/releases/20151108211030 /var/www/mrcore5-mreschke-com/current-temp
+ln -s /var/www/mrcore5-mreschke-com/releases/20151108211517 /var/www/mrcore5-mreschke-com/current-temp
 mv -Tf /var/www/mrcore5-mreschke-com/current-temp /var/www/mrcore5-mreschke-com/current
 
 |=> No releases to prune from the server
