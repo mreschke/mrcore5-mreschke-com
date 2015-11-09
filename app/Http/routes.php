@@ -1,0 +1,1 @@
+<?php // Emptied by mrcore/foundation installer
