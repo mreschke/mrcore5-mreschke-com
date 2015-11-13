@@ -63,9 +63,6 @@ return [
 
         // The folders and files to set as web writable
         'files'    => [
-            'app/database/production.sqlite',
-            'storage',
-            'public',
         ],
 
         // Here you can configure what actions will be executed to set
@@ -75,7 +72,7 @@ return [
             return [
                 sprintf('chmod -R 755 %s', $file),
                 sprintf('chmod -R g+s %s', $file),
-                sprintf('chown -R www-data:www-data %s', $file),
+                sprintf('chown -R toor:toor %s', $file),
             ];
         },
 

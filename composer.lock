@@ -861,16 +861,16 @@
         },
         {
             "name": "mrcore/bootswatch-theme",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mrcore5/bootswatch-theme.git",
-                "reference": "49f53fda48f431154c3298dbf2c08ef88d1ab41a"
+                "reference": "b6b3c3bb26f8f2e9b5dc025c599a73a60977c708"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mrcore5/bootswatch-theme/zipball/49f53fda48f431154c3298dbf2c08ef88d1ab41a",
-                "reference": "49f53fda48f431154c3298dbf2c08ef88d1ab41a",
+                "url": "https://api.github.com/repos/mrcore5/bootswatch-theme/zipball/b6b3c3bb26f8f2e9b5dc025c599a73a60977c708",
+                "reference": "b6b3c3bb26f8f2e9b5dc025c599a73a60977c708",
                 "shasum": ""
             },
             "type": "library",
@@ -898,7 +898,7 @@
                 "mrcore",
                 "theme"
             ],
-            "time": "2015-11-11 03:35:57"
+            "time": "2015-11-13 03:38:01"
         },
         {
             "name": "mrcore/foundation",
@@ -946,16 +946,16 @@
         },
         {
             "name": "mrcore/wiki",
-            "version": "1.0.42",
+            "version": "1.0.43",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mrcore5/wiki.git",
-                "reference": "92eb159fb6f2051342880273be2101fbcd7151bb"
+                "reference": "d9f546a7523368677bace77f1d10f9bf763bee41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mrcore5/wiki/zipball/92eb159fb6f2051342880273be2101fbcd7151bb",
-                "reference": "92eb159fb6f2051342880273be2101fbcd7151bb",
+                "url": "https://api.github.com/repos/mrcore5/wiki/zipball/d9f546a7523368677bace77f1d10f9bf763bee41",
+                "reference": "d9f546a7523368677bace77f1d10f9bf763bee41",
                 "shasum": ""
             },
             "require": {
@@ -994,7 +994,7 @@
                 "mrcore",
                 "wiki"
             ],
-            "time": "2015-11-11 19:47:35"
+            "time": "2015-11-13 03:34:04"
         },
         {
             "name": "mreschke/helpers",
