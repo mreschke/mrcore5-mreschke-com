@@ -7,6 +7,8 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*",
+		"predis/predis": "~1.0",
+
         "mrcore/foundation": "~1.0",
         "mrcore/auth": "~1.0",
         "mrcore/wiki": "~1.0",
