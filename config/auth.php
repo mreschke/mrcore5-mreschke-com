@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'model' => Mrcore\Modules\Wiki\Models\User::class,
+    'model' => Mrcore\Wiki\Models\User::class,
 
     /*
     |--------------------------------------------------------------------------

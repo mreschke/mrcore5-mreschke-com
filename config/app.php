@@ -144,7 +144,7 @@ return [
         #App\Providers\AuthServiceProvider::class,
         #App\Providers\EventServiceProvider::class,
         #App\Providers\RouteServiceProvider::class,
-        Mrcore\Modules\Foundation\Providers\FoundationServiceProvider::class,
+        Mrcore\Foundation\Providers\FoundationServiceProvider::class,
 
     ],
 
