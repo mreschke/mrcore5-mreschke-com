@@ -38,6 +38,66 @@
             "time": "2013-02-06 21:39:08"
         },
         {
+            "name": "cebe/markdown",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cebe/markdown.git",
+                "reference": "54a2c49de31cc44e864ebf0500a35ef21d0010b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cebe/markdown/zipball/54a2c49de31cc44e864ebf0500a35ef21d0010b2",
+                "reference": "54a2c49de31cc44e864ebf0500a35ef21d0010b2",
+                "shasum": ""
+            },
+            "require": {
+                "lib-pcre": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "cebe/indent": "*",
+                "facebook/xhprof": "*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "bin": [
+                "bin/markdown"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "cebe\\markdown\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Carsten Brandt",
+                    "email": "mail@cebe.cc",
+                    "homepage": "http://cebe.cc/",
+                    "role": "Creator"
+                }
+            ],
+            "description": "A super fast, highly extensible markdown parser for PHP",
+            "homepage": "https://github.com/cebe/markdown#readme",
+            "keywords": [
+                "extensible",
+                "fast",
+                "gfm",
+                "markdown",
+                "markdown-extra"
+            ],
+            "time": "2015-03-06 05:28:07"
+        },
+        {
             "name": "classpreloader/classpreloader",
             "version": "3.0.0",
             "source": {
@@ -90,6 +150,57 @@
                 "preload"
             ],
             "time": "2015-11-09 22:51:51"
+        },
+        {
+            "name": "cogpowered/finediff",
+            "version": "0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cogpowered/FineDiff.git",
+                "reference": "339ddc8c3afb656efed4f2f0a80e5c3d026f8ea8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cogpowered/FineDiff/zipball/339ddc8c3afb656efed4f2f0a80e5c3d026f8ea8",
+                "reference": "339ddc8c3afb656efed4f2f0a80e5c3d026f8ea8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "*",
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "cogpowered\\FineDiff": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rob Crowe",
+                    "email": "rob@cogpowered.com"
+                },
+                {
+                    "name": "Raymond Hill"
+                }
+            ],
+            "description": "PHP implementation of a Fine granularity Diff engine",
+            "homepage": "https://github.com/cogpowered/FineDiff",
+            "keywords": [
+                "diff",
+                "finediff",
+                "opcode",
+                "string",
+                "text"
+            ],
+            "time": "2014-05-19 10:25:02"
         },
         {
             "name": "danielstjules/stringy",
@@ -246,96 +357,6 @@
                 "string"
             ],
             "time": "2015-11-06 14:35:42"
-        },
-        {
-            "name": "easybook/geshi",
-            "version": "v1.0.8.15",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/easybook/geshi.git",
-                "reference": "54387de80bc7ee50397ffae39234626a48d2d45f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/easybook/geshi/zipball/54387de80bc7ee50397ffae39234626a48d2d45f",
-                "reference": "54387de80bc7ee50397ffae39234626a48d2d45f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">4.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "./"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0"
-            ],
-            "authors": [
-                {
-                    "name": "Nigel McNie",
-                    "email": "nigel@geshi.org"
-                },
-                {
-                    "name": "Benny Baumann",
-                    "email": "BenBE@geshi.org"
-                }
-            ],
-            "description": "GeSHi - Generic Syntax Highlighter. This is an unmodified port of GeSHi project code found on SourceForge.",
-            "homepage": "http://qbnz.com/highlighter",
-            "keywords": [
-                "highlight",
-                "highlighter",
-                "syntax"
-            ],
-            "time": "2015-06-18 14:56:28"
-        },
-        {
-            "name": "gorhill/php-fine-diff",
-            "version": "0.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/falk-graeser/PHP-FineDiff.git",
-                "reference": "b0c9ab136958882c501d461b0ad204f908e19392"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/falk-graeser/PHP-FineDiff/zipball/b0c9ab136958882c501d461b0ad204f908e19392",
-                "reference": "b0c9ab136958882c501d461b0ad204f908e19392",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "GorHill\\FineDiff\\": "GorHill/FineDiff"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Raymond Hill",
-                    "email": "r.michael@queo-group.com",
-                    "homepage": "http://www.queoflow.com/",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Falk Gräser",
-                    "email": "f.graeser@queo-group.com",
-                    "homepage": "http://www.queoflow.com/",
-                    "role": "The-Clean-Up-Guy"
-                }
-            ],
-            "homepage": "http://www.raymondhill.net/finediff/",
-            "keywords": [
-                "finediff"
-            ],
-            "time": "2015-07-30 10:21:26"
         },
         {
             "name": "illuminate/html",
@@ -902,16 +923,16 @@
         },
         {
             "name": "mrcore/foundation",
-            "version": "1.0.23",
+            "version": "1.0.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mrcore5/foundation.git",
-                "reference": "e5627b0a41118c4efd7241ba32c2645be46d512b"
+                "reference": "7c46dd7c4a62a07a566eeb62607b68e5c7540089"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mrcore5/foundation/zipball/e5627b0a41118c4efd7241ba32c2645be46d512b",
-                "reference": "e5627b0a41118c4efd7241ba32c2645be46d512b",
+                "url": "https://api.github.com/repos/mrcore5/foundation/zipball/7c46dd7c4a62a07a566eeb62607b68e5c7540089",
+                "reference": "7c46dd7c4a62a07a566eeb62607b68e5c7540089",
                 "shasum": ""
             },
             "require": {
@@ -942,33 +963,77 @@
                 "laravel",
                 "mrcore"
             ],
-            "time": "2015-11-11 21:15:45"
+            "time": "2015-11-13 22:39:55"
         },
         {
-            "name": "mrcore/wiki",
-            "version": "1.0.43",
+            "name": "mrcore/parser",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mrcore5/wiki.git",
-                "reference": "d9f546a7523368677bace77f1d10f9bf763bee41"
+                "url": "https://github.com/mrcore5/parser.git",
+                "reference": "396b0d09a6547744161d496f2ecafb9b838fb152"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mrcore5/wiki/zipball/d9f546a7523368677bace77f1d10f9bf763bee41",
-                "reference": "d9f546a7523368677bace77f1d10f9bf763bee41",
+                "url": "https://api.github.com/repos/mrcore5/parser/zipball/396b0d09a6547744161d496f2ecafb9b838fb152",
+                "reference": "396b0d09a6547744161d496f2ecafb9b838fb152",
+                "shasum": ""
+            },
+            "require": {
+                "cebe/markdown": "~1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Libraries"
+                ],
+                "psr-4": {
+                    "Mrcore\\Parser\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Matthew Reschke",
+                    "email": "mail@mreschke.com"
+                }
+            ],
+            "description": "Mrcore Parser Application",
+            "keywords": [
+                "framework",
+                "laravel",
+                "mrcore",
+                "mrcore5"
+            ],
+            "time": "2015-11-16 17:42:01"
+        },
+        {
+            "name": "mrcore/wiki",
+            "version": "1.0.53",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrcore5/wiki.git",
+                "reference": "c5a4aabbe8641e11b0150e3cb08c651610264a93"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrcore5/wiki/zipball/c5a4aabbe8641e11b0150e3cb08c651610264a93",
+                "reference": "c5a4aabbe8641e11b0150e3cb08c651610264a93",
                 "shasum": ""
             },
             "require": {
                 "camspiers/porter-stemmer": "1.0.0",
-                "easybook/geshi": "~1.0.8.12",
-                "gorhill/php-fine-diff": "~0.1.0",
+                "cogpowered/finediff": "~0.0",
                 "illuminate/html": "~5.0",
+                "mrcore/parser": "~1.0",
                 "sabre/dav": "~1.8.7"
             },
             "type": "library",
             "autoload": {
                 "classmap": [
-                    "Libraries",
                     "Database"
                 ],
                 "psr-4": {
@@ -994,7 +1059,7 @@
                 "mrcore",
                 "wiki"
             ],
-            "time": "2015-11-13 03:34:04"
+            "time": "2015-11-16 22:56:30"
         },
         {
             "name": "mreschke/helpers",
