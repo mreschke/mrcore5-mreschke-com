@@ -1012,16 +1012,16 @@
         },
         {
             "name": "mrcore/wiki",
-            "version": "1.0.53",
+            "version": "1.0.54",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mrcore5/wiki.git",
-                "reference": "c5a4aabbe8641e11b0150e3cb08c651610264a93"
+                "reference": "c3c6fa58cb65479bcc7e1f1b5f21ff9a048282bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mrcore5/wiki/zipball/c5a4aabbe8641e11b0150e3cb08c651610264a93",
-                "reference": "c5a4aabbe8641e11b0150e3cb08c651610264a93",
+                "url": "https://api.github.com/repos/mrcore5/wiki/zipball/c3c6fa58cb65479bcc7e1f1b5f21ff9a048282bc",
+                "reference": "c3c6fa58cb65479bcc7e1f1b5f21ff9a048282bc",
                 "shasum": ""
             },
             "require": {
@@ -1059,7 +1059,7 @@
                 "mrcore",
                 "wiki"
             ],
-            "time": "2015-11-16 22:56:30"
+            "time": "2015-11-17 16:58:03"
         },
         {
             "name": "mreschke/helpers",
