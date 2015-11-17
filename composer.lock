@@ -923,16 +923,16 @@
         },
         {
             "name": "mrcore/foundation",
-            "version": "1.0.25",
+            "version": "1.0.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mrcore5/foundation.git",
-                "reference": "7c46dd7c4a62a07a566eeb62607b68e5c7540089"
+                "reference": "97131c4e18ee02936fdc6b5674fa4d33a0a67fb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mrcore5/foundation/zipball/7c46dd7c4a62a07a566eeb62607b68e5c7540089",
-                "reference": "7c46dd7c4a62a07a566eeb62607b68e5c7540089",
+                "url": "https://api.github.com/repos/mrcore5/foundation/zipball/97131c4e18ee02936fdc6b5674fa4d33a0a67fb4",
+                "reference": "97131c4e18ee02936fdc6b5674fa4d33a0a67fb4",
                 "shasum": ""
             },
             "require": {
@@ -963,7 +963,7 @@
                 "laravel",
                 "mrcore"
             ],
-            "time": "2015-11-13 22:39:55"
+            "time": "2015-11-17 16:19:47"
         },
         {
             "name": "mrcore/parser",
